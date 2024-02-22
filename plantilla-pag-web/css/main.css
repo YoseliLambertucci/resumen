@@ -1,0 +1,4 @@
+/* USO DE SCSS:
+    sass --watch scss/nombre de la carpeta de estilos donde tenes la compilaicon de todos los archivos css/nombre de la carpeta css
+    ej: sass --watch scss/style.scss css/style.css
+    *esto se debe ejecutar en VSC cada vez que se abre. esto es para que el procesador copie los cambios en css */

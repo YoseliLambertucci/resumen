@@ -1,0 +1,61 @@
+PARA QUE SIRVE: para guardar tu codigo en la nube y poder trabajar en ramas hasta estar seguros de pasarlo al proyecto principal
+    poder volver a una version anterior
+    trabajar en equipo
+    analizar errores
+
+TERMINALES:
+    git bash (para trabajar desde windows)
+    powershell- (para trabajar desde VSC)
+
+INSTALACION:
+    1- buscar en internet git y descargar
+
+PARA QUE GIT NO GUARDE ALGUNO ARCHIVOS
+ .gitignore (se crea una carpeta en vsc con ese nombre, y adentro se listan las carpetas que queremos que git
+  no siga, en la carpeta raiz)
+    
+COMANDOS:
+    git --version (para saber que version tenemos instalada)
+    git config --global user.name "mi-nombre" (para crear nuestro usuario)
+    git config --glbal user.email xxx@mail.comentario (para registrar nuestro mail, que debe ser igual al de github)
+    git config --global core.editor "code --wait" 
+    git config --global -e 
+    git config --global core.autocrlf true (si tenes windows, si tenes mac cambias el true por folse)
+    git config -h
+    git config list
+    git config --list
+    git init (para iniciar un repositorio)
+    git status (ves es estado de las carpetas)
+    git add . (git comienza a seguir los cambios que vas haciendo en las carpetas)
+    git commit -m "comentario descriptivo corto" (guardas los cambios)
+    git branch (para saber en que ramas estas trabajando)
+    git branch nombre-de-la-rama (para crear una rama, posicinados en main)
+    git branch -D nombre-de-la-rama  (para eliminar una rama, posicionados en main)
+    git checkout
+    git -v (para ver la version instalada de git)
+    ls (para listar las carpetas)
+    pwd
+    cd nombre-de-la-carperta (para movernos a la carpeta que queremos)
+    cd .. (vuelve a la carpeta anterior)
+    ls -a 
+    clear (para limpiar la terminal, sin borrar lo ejecutado)
+    rm nombre-del -archivo (para eliminar un archivos)
+    git rm nombre-del-archivo (para borrar un solo cambio)
+    git restore nombre-del-arcivo  (para recuperar un cambio)
+   git log (historial de cambios)
+    git rm -r --cached nombre-carpeta (para borar una carpeta en git hub).
+    git log --online
+    git merge nombre-de-la-rama  (posicionados en la rama main, para incorporar los cambios a main)
+
+COMANDO PARA SUBIR A GITHUB:
+    git remote -v
+    git push -u origin main
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin https://github.com/YoseliLambertucci/prueba-yoseli.git
+	git push -u origin main
+
+ERROR EN WINDOWS:
+    www.cdmon.com (la ejecucio de windows esta deshabilitada)

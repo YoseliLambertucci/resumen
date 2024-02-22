@@ -1,0 +1,12 @@
+/* MIXINS: ( se puede almacenar distintos valores, no se deben usar en las media query, porque rompe todo)
+    se declara asi:
+        @mixin size ($width; $height; $etc) {
+            width: $width
+            height: $height
+            etc: $etc
+        }
+como se usa:
+    .class {
+        @includ size (500px, 50px, etc);
+    }
+ */

@@ -1,0 +1,30 @@
+/* aca importas todos los archivos que creaste para hermosear cada pagina OJO 
+OJO lee en cascada!!!  USAR CLASS!!! y NO olvidarse de ningun padre*/
+
+@import "utiliti/variables";
+
+
+@import "utiliti/mixin";
+@import "utiliti/extend";
+@import "utiliti/animaciones";
+
+@import "utiliti/reset";
+
+@import "componentes/header";
+
+@import "page/index";
+@import "page/otra-pag";
+
+@import "componentes/footer";
+
+@import "utiliti/media";
+/* SCSS:
+    es un preprocedor de css, sirme para agilizar, ordenar y ser mas eficientes con css
+
+INSTALACION:
+    node instalar el LTS . buscar en google e instalarlo
+    LUEGO:
+        desde la terminal en VSC, 
+        node -v (para corroborar la version instalada)
+        npm init (para instalar npm)
+        npm install -g sass */

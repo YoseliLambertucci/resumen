@@ -1,0 +1,12 @@
+/* EXTEND:
+    se declara asi:
+         %extend1 {
+            color: x;
+            backgraundcolor: x;
+            etc;
+        }
+lo usas asi en scss:
+    .class {
+        @extend %extend1;
+        otros atributos;
+    } */

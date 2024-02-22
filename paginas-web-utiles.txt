@@ -1,0 +1,43 @@
+Librerias de animaciones: 
+    AOS https://michalsnik.github.io/aos/
+    ANIMAT CSS 
+
+fremwork:
+    bootstrap https://getbootstrap.com/
+        https://www.youtube.com/watch?v=QCw0L6FupQ0 (PARA APRENDER A USAR bootstrap)
+
+
+google-fonts 
+        https://fonts.google.com/specimen/Quicksand
+
+moqups, para hacer pre proyecto en papel
+
+https://developer.mozilla.org/es/docs/Web/HTML/Element
+
+CSS:
+        https://cssreference.io/typography/
+        https://cssreference.io/box-model/
+        box-shadow
+
+el mejor profesor 
+        https://www.youtube.com/results?search_query=hola+mundo
+
+git
+        https://github.com/
+
+apende grid        
+        https://blog.hubspot.es/website/css-grid
+
+sass
+        https://sass-lang.com/documentation/
+
+optimizar imagenes
+        https://www.siegemedia.com/contrast-ratio
+        https://zyro.com/es/herramientas/upscaler-de-imagenes
+        https://www.photopea.com/
+
+seo meta en un click
+    https://chromewebstore.google.com/detail/seo-meta-in-1-click/bjogjfinolnhfhkbipphpdlldadpnmhc?pli=1
+
+
+https://codepen.io/pen/tour/welcome/start

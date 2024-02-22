@@ -1,0 +1,11 @@
+PIXELES:
+    movil: 320 px - 768px
+    tablet: 768px-1024px
+    compu: 1024px - 1200px
+
+rem: es una medida relativa a la medida en pixeles que tiene la compu por defecto 16px
+em: es una medida relativa al medida en pixeles que nosotros le indicamos html
+
+NOMENCLATURA PAR UTILIZAR UNA MEDIA QUERY, 
+     @media screen and (min-width: 200px) and (max-width: 768px) {
+} 

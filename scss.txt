@@ -1,0 +1,118 @@
+SCSS:
+    es un preprocedor de css, sirme para agilizar, ordenar y ser mas eficientes con css
+
+INSTALACION:
+    node instalar el LTS . buscar en google e instalarlo
+    LUEGO:
+        desde la terminal en VSC, 
+        node -v (para corroborar la version instalada)
+        npm init (para instalar npm)
+        npm install -g sass
+EN VSC:
+    crear la carpeta de estilos generales que vamos a usar para scss
+        ej: style.scss
+
+USO DE SCSS:
+    sass --watch scss/nombre de la carpeta de estilos donde tenes la compilaicon de todos los archivos css/nombre de la carpeta css
+    ej: sass --watch scss/style.scss css/style.css
+    *esto se debe ejecutar en VSC cada vez que se abre. esto es para que el procesador copie los cambios en css
+
+COMO VINCULAR LAS CARPETAS DE SCSS:
+    creamos una carpeta de stilos general donde van a importarte todas las carpeta especificas
+    ej:     main.scss ( aca vamos a importar los archivos que estan abajo)
+                _page1.scss (aca ponemos lo estilos especificos de esta pagina)
+                _page2.scss idem
+                _page3.scss idem
+                _footer.scss idem
+                _header.scss idem
+                _mixin.scss idem
+                _etc.scss idem
+    main. scss
+        @import "page1" (o la ruta que sea si la tenemos dentro de una carpeta)
+
+        (el archivo lee en cascada, por lo tanto arriba vamos a poner los estilos que necesitamos como generales, estilos que usan mas de una pagina)
+
+ESTILOS RESET:
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    
+VARIABLES:
+    guardar valores globales ej color, fuente texto etc, solo puede contener un valor
+
+NOMENCLATURA DE VARIABLES:
+        $nombre-de-la-variable: valor
+            ej: $color-ppal: red
+
+    lo usas asi en scss:
+        .class {
+            color: $color-ppal
+        }
+
+
+EXTEND:
+    se declara asi:
+         %extend1 {
+            color: x;
+            backgraundcolor: x;
+            etc;
+        }
+lo usas asi en scss:
+    .class {
+        @extend %extend1;
+        otros atributos;
+    }
+
+
+MIXINS: ( se puede almacenar distintos valores, no se deben usar en las media query, porque rompe todo)
+    se declara asi:
+        @mixin size ($width; $height; $etc) {
+            width: $width
+            height: $height
+            etc: $etc
+        }
+como se usa:
+    .class {
+        @includ size (500px, 50px, etc);
+    }
+
+
+ANIMACIONES:
+    como se declara:
+        @keyframe efecto-uno {
+            0%{
+                valores
+            }
+            25%{
+                valores
+            }
+            100%{
+                valores
+            }
+        }
+    como se usa :
+        .clas {
+            animation-name: efecto-uno;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-duration: 2s; 
+            animation-delay: 1s
+        }
+
+GRADIENTES:
+    lineales:
+        linear-gradient to left, to right, to botton, to top
+    radiales
+        radial-gradient
+
+TRANSFORMACIONES:
+    transform: rotate (xdeg)
+    transform: sacale (x, y)
+    transform: translate (xdeg)
+    transform: skew (xdeg, ydeg)
+
+TRANSICIONES:
+    transition: property
+                duration
+                timing function
+                delay

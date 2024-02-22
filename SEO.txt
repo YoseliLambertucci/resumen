@@ -1,0 +1,50 @@
+POSITION IN THE Web
+
+SEO ON PAGE 
+        a traves de etiquetas en el head
+            <meta name"description" content"parrafo descriptivo">
+            <meta namer"keywords" content"palabra claves, palabra claves, palabra clave">
+            <title>
+        a traves de etiquetas en el body
+            <h1>
+SEO OFF PAGE
+        promocion y señale en redes sociales
+        enlaces relacionados con otros sitios similares
+SEO TECNICO
+        jeraruqia en los archivos
+        mapa 
+        optimizacion mobil
+            responsive
+            publicacion dinamica
+            URL independiente
+SEO LOCAL
+        google my busness
+        search console
+
+BUENAS PRACTICAS EN EL DESARROLLO QUE HACEN A UNA BUENA ACCESIBILIDAD Y NAVEGACION
+    Aspecto de la web
+        estilos
+        branding
+        manuales de la marca
+    Accesibilidad 
+        codificacion
+            legible
+            estable
+            ordenado
+            comentado
+        capacidades diferentes
+            atributo alt 
+            role
+            subtitulos
+            transcripcion de audio
+            tamaño apropiado
+            buen contraste
+        imagenes/videos
+            png/svg/avif/webp/jpeg2000
+            comprimirlos con 
+                adobe photoshops
+                afinitti photopea
+                https://www.siegemedia.com/contrast-ratio
+                https://zyro.com/es/herramientas/upscaler-de-imagenes
+                https://www.photopea.com/
+

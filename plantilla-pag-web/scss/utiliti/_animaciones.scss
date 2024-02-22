@@ -1,0 +1,21 @@
+/* ANIMACIONES:
+    como se declara:
+        @keyframe efecto-uno {
+            0%{
+                valores
+            }
+            25%{
+                valores
+            }
+            100%{
+                valores
+            }
+        }
+    como se usa :
+        .clas {
+            animation-name: efecto-uno;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
+            animation-duration: 2s; 
+            animation-delay: 1s
+        } */
