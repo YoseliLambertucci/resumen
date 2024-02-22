@@ -8,4 +8,5 @@ em: es una medida relativa al medida en pixeles que nosotros le indicamos html
 
 NOMENCLATURA PAR UTILIZAR UNA MEDIA QUERY, 
      @media screen and (min-width: 200px) and (max-width: 768px) {
+        aca tenes que anidar y poner los estilos que queres para la medida declarada
 } 
