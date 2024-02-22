@@ -54,7 +54,7 @@ COMANDO PARA SUBIR A GITHUB:
 	git add README.md
 	git commit -m "first commit"
 	git branch -M main
-	git remote add origin https://github.com/YoseliLambertucci/prueba-yoseli.git
+	git remote add origin https://github.com/YoseliLambertucci/xxnombre del repositorio.git
 	git push -u origin main
 
 ERROR EN WINDOWS:
